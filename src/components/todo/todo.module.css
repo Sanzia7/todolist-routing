@@ -1,0 +1,72 @@
+.todo {
+	display: flex;
+	width: 90%;
+	margin: 12px auto;
+	align-items: center;
+	justify-content: space-around;
+	gap: 12px;
+	padding: 5px 20px;
+
+	font-size: 20px;
+	border-radius: 7px;
+	border: 1px solid violet;
+	box-shadow: 3px 1px 3px rgb(57, 54, 68);
+	color: deeppink;
+	background-color: rgb(142, 244, 142);
+	border: none;
+}
+
+.title {
+	width: 60%;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* text-overflow: clip | ellipsis; */
+}
+
+input {
+	display: block;
+	font-size: 18px;
+	padding: 6px;
+	width: 80%;
+}
+
+
+.checkbox {
+	cursor: pointer;
+	width: 36px;
+	height: 36px;
+}
+
+.todoIcon {
+	font-size: 30px;
+	margin-right: 10px;
+	color: darkorchid;
+}
+
+.completedTodo {
+	color: #04b0fa;
+}
+
+.todo.completedTodo {
+	background-color: rgb(244, 244, 141);
+	color: #04b0fa;
+}
+
+.todo.completedTodo .todoIcon {
+	color: darkgreen;
+}
+
+/*
+.textcut {
+	background: #f4eddf;
+	padding: 8px;
+	color: rgb(2, 60, 2);
+	white-space: nowrap;
+	/* Текст не переносится */
+/* overflow: hidden; */
+/* Обрезаем всё за пределами блока */
+/* text-overflow: ellipsis; */
+/* Добавляем многоточие */
+/* } */

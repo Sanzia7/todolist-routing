@@ -1,0 +1,133 @@
+/* .main { */
+	/* margin: 20px auto; */
+	/* text-align: center; */
+	/* max-width: 700px; */
+/* } */
+/*
+h1 {
+	font-size: 40px;
+	margin: 40px auto;
+	color: rgb(58, 98, 183);
+	text-shadow: 1px 2px 1px yellow;
+} */
+/*
+.container {
+	padding: 10px;
+	margin: 12px;
+	border: 2px solid ;
+} */
+
+.todo {
+	display: flex;
+	width: 90%;
+	margin: 12px auto;
+	align-items: center;
+	justify-content: space-around;
+	gap: 12px;
+	padding: 5px 20px;
+
+	font-size: 20px;
+	border-radius: 7px;
+	border: 1px solid violet;
+	box-shadow: 3px 1px 3px rgb(57, 54, 68);
+	color: deeppink;
+	background-color: rgb(113, 249, 113);
+	border: none;
+}
+
+.title {
+	width: 80%;
+	text-align: left;
+	margin-right: 50px;
+	padding: 8px;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/* text-overflow: clip | ellipsis; */
+}
+
+input {
+	display: block;
+	font-size: 20px;
+	padding: 12px;
+	width: 80%;
+	border: none;
+	background-color: rgb(118, 247, 238);
+	color: darkmagenta;
+}
+
+
+.checkbox {
+	cursor: pointer;
+	width: 34px;
+	height: 34px;
+	background: plum;
+}
+
+.todoIcon {
+	font-size: 30px;
+	margin-right: 10px;
+	color: darkorchid;
+}
+
+.completedTodo {
+	color: #04b0fa;
+}
+
+.todo.completedTodo {
+	background-color: rgb(250, 240, 150);
+	color: #2da3d5;
+}
+
+.todo.completedTodo .todoIcon {
+	color: darkgreen;
+}
+
+/* .todo {
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px solid #bbb;
+}
+
+.todo:last-child {
+	border: none;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	margin: 0 10px 0 0;
+}
+
+.title {
+	width: 100%;
+	margin-right: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+} */
+
+.loader {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 25px;
+	height: 25px;
+	border: 5px solid #61dafb;
+	border-radius: 50%;
+	color: #61dafb;
+	border-left-color: transparent;
+	animation: loader 1s infinite;
+}
+
+@keyframes loader {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}

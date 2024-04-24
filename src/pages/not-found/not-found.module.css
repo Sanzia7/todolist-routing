@@ -1,0 +1,36 @@
+.container {
+	position: relative;
+	margin-top: 70px;
+	margin-bottom: 120px;
+}
+
+.container img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.info {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.container h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: gold;
+	padding: 55px;
+	text-shadow: 2px 3px green;
+}
+
+.container h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: crimson;
+	padding: 20px 100px;
+	text-shadow: 2px 2px blue;
+	padding-right: 150px;
+}

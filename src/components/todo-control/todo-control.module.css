@@ -1,0 +1,14 @@
+.controlPanel {
+	margin: 12px auto;
+	width: 90%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	justify-content: flex-end;
+	border: none;
+	padding: 12px;
+	border-radius: 8px;
+	background-color: #9c72a8;
+	box-shadow: 2px 1px 3px rgb(29, 29, 78);
+}

@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	background-color: #a8c0ec;
+	background-image: url("./time-organization.jpg");
+	opacity: 1;
+	color: yellowgreen;
+	min-height: 100vh;
+}
+a {
+	color: inherit;
+	text-decoration: inherit;
+}

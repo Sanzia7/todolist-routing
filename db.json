@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "start learning TypeScript",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "learning German",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "study different topics on TypeScript",
+      "completed": true
+    },
+    {
+      "id": "5",
+      "title": "study different topics on JaavaScript",
+      "completed": true
+    },
+    {
+      "title": "   Подготовить все необходимое для поездки в Турцию",
+      "completed": false,
+      "id": "RI8leV8"
+    },
+    {
+      "title": "   kjhkjhlhjlj",
+      "completed": false,
+      "id": "0dMu5wU"
+    }
+  ]
+}
